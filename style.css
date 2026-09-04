@@ -153,3 +153,70 @@ footer {
     font-size: 1.8rem;
   }
 }
+/* Why Choose Us Section */
+.why-choose {
+  padding: 60px 40px;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.why-choose h2 {
+  color: #2e7d32;
+  margin-bottom: 40px;
+  font-size: 2rem;
+}
+
+.why-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.why-card {
+  background: #f4f9f4;
+  padding: 30px;
+  border-radius: 10px;
+  width: 260px;
+  text-align: left;
+}
+
+.why-card h3 {
+  color: #2e7d32;
+  margin-bottom: 12px;
+  font-size: 1.1rem;
+}
+
+/* Product Categories Section */
+.products {
+  padding: 60px 40px;
+  text-align: center;
+  background-color: #f4f9f4;
+}
+
+.products h2 {
+  color: #2e7d32;
+  margin-bottom: 40px;
+  font-size: 2rem;
+}
+
+.product-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.product-card {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  width: 260px;
+  text-align: left;
+}
+
+.product-card h3 {
+  color: #2e7d32;
+  margin-bottom: 12px;
+}
